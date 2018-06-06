@@ -1,7 +1,7 @@
 {
 	"id" : "apiai",
-	"name" : "Google Assistant",
-	"description" : "Google Assistant",
+	"name" : "Google Assistant Gateway",
+	"description" : "Google Assistant Gateway fait le lien entre un projet sur la console d'actions développeurs Google et le plugin Jeedom officiel Google SmartHome. Il agit principalement comme un serveur oAuth2.",
 	"licence" : "AGPL",
 	"author" : "greenski",
 	"require" : "3.1",
