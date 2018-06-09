@@ -91,6 +91,7 @@
 
 		$reply['requestId'] = $body['requestId'];
 		foreach ($body['inputs'] as $input) {
+			log::add('apiai', 'debug', print_r(json_encode($input), true) .'...');
 			$reply['payload'] = traiteInput($input);
 		}
 		
