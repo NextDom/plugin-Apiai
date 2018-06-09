@@ -8,7 +8,7 @@
 	"category" : "communication",
 	"hasDependency" : false,
 	"hasOwnDeamon" : false,
-	"maxDependancyInstallTime" : 0
+	"maxDependancyInstallTime" : 0,
 	"changelog" : "https://NextDom.github.io/plugin-Apiai/fr_FR/changelog.html",
 	"documentation" : "https://NextDom.github.io/plugin-Apiai/"
 }
