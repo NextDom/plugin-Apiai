@@ -17,7 +17,7 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
  
-require_once dirname(__FILE__) . '/../../../../core/php/core.inc.php';
+require_once __DIR__ . '/../../../../core/php/core.inc.php';
 
 
 log::add('apiai', 'debug', 'Début oAuth');
@@ -125,5 +125,4 @@ if (isset($_GET['response_type'])) {
 }
 
 log::add('apiai', 'debug', 'Fin oAuth');
-
-?>
+ 
